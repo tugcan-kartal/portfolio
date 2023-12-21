@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This project published by netlify [To See Project](https://tugcankartal.netlify.app/).
+This project published by netlify [To See Project](https://tugcankartal.com/).
 
 ## The Main Technologies 
 
