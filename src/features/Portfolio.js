@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import NewAIPhoto from "../static/newai.jpeg"
 import CoinPhoto from "../static/coinapp.png";
 import ClothPhoto from "../static/clothapp.png";
 import CarPhoto from "../static/carrent.png";
@@ -19,6 +20,48 @@ const Portfolio = () => {
             <div>
                 <div className='flex flex-col gap-y-[10vh]'>     
 
+                    <div className='flex md:flex-row flex-col gap-y-[5vh] items-center bg-white py-[5vh] px-[2vw] gap-x-[10vw] rounded-2xl'>
+
+                            <Link to="https://66a113b6c0cd8e423184f7e7--classy-donut-34f99c.netlify.app/" target="_blank">
+
+                                <div>
+                                    <img className='h-[40vh] rounded-3xl shadow-2xl' src={NewAIPhoto} alt="not found"/>
+                                </div>
+
+                            </Link>
+                            
+                            <div className='flex flex-col gap-y-[5vh] text-center'>
+                                <div className='flex flex-col gap-y-[5vh]'>
+                                    <div className='font-bold text-xl' style={{color: "#2d2e32"}}>NEWAI</div>
+                                    <div className='text-gray-500 font-semibold text-lg'>
+                                        Interactive news site with artificial intelligence called newai.
+                                    </div>
+                                </div>
+
+                                <div className='flex justify-center gap-x-[2vw] text-xl'>
+
+                                    <Link to="https://github.com/tugcan-kartal/NEWAI" target="_blank">
+                                    
+                                        <div>
+                                            Code 
+                                            <i class="fa-brands fa-github fa-flip mx-[0.5vw]" style={{color: "#0a0a0b;"}}></i>
+                                        </div>
+                                    
+                                    </Link>
+
+                                    <Link to="https://66a113b6c0cd8e423184f7e7--classy-donut-34f99c.netlify.app/" target="_blank">
+
+                                        <div>
+                                            Live Demo
+                                            <i class="fa-solid fa-arrow-up-right-from-square fa-beat-fade mx-[0.5vw]" style={{color: "#000000;"}}></i>
+                                        </div>
+
+                                    </Link>
+
+                                </div>
+                            </div>
+
+                    </div>
 
                     <div className='flex md:flex-row flex-col gap-y-[5vh] items-center bg-white py-[5vh] px-[2vw] gap-x-[10vw] rounded-2xl'>
 
